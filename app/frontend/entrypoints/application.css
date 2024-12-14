@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply border-2 border-black rounded-lg h-13;
+  }
+
+  [type="password"] {
+    @apply border-2 border-black rounded-lg h-13;
+  }
+}
